@@ -18,7 +18,7 @@ function darkning() {
     for (let i = 0; i < actfoto.length; i++)
         actfoto[i].onmouseout = function opacity0()
         {
-            actfoto[i].style.opacity = "0.6";
+            actfoto[i].style.opacity = "0.61";
             actfoto[i].style.border = "4px solid rgb(212, 195, 195)";
             opis[i].style.display = "none";
         }
